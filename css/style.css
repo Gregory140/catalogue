@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.row-limit-size{
+    width: 1400xp;
+    margin: 0 auto;
+    
+}
+header  {
+    height: 80px;
+   
+    
+    
+    
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+body > header > nav > ul {
+    display: flex;
+   
+}
+nav{
+    background-color:background-color: rgb(25, 26, 27); 
+}
+
+.main-menu > li > a {
+    position: relative;
+    
+
+}
+
+.main-menu > ul > li > a:not(.button){
+    
+    height: 47px;
+    display: block;
+    padding: 0 10px;
+    line-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+}
+
+
+.button{
+    
+    display: block;
+    padding: 0 10px;
+    line-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    box-shadow: 2px 2px 10px #111;
+    
+    text-transform: uppercase;
+    background-color:#d31e44;
+    border-radius: 15px;
+    
+
+}
+
+main{
+    
+    height: 500px;
+    background-image: url(./images/bg-header.webp);
+    background-repeat:no-repeat ;
+    
+}
+.logoblanc {
+    display: flex;
+    justify-content: center;
+}
+main  h1 {
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: -50px;
+    color: #ebc5e7;
+    font-size: 40px;
+}
+main h2 { 
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 70px;
+    
+}
+
+main p {
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 30px;
+
+}
+
+
+
